@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text&family=Montserrat:wght@500&family=Ubuntu:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.pickplan-wrap{
+    padding: 30px;
+}
+
+.pickplan-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pickplan-content p{
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: #000000;
+margin: 0;
+}
+
+.pickplan-content img{
+    width:250px;
+}
+
+.pricing-content{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 120px;
+    padding: 40px 80px;
+
+}
+
+.pricing-block1{
+display:flex;
+flex-direction: column;
+min-width: 500px;
+/* max-width:600px; */
+min-height: 250px;
+max-height:300px;
+background-image: url('./Vector.png');
+justify-content: center;
+align-items: center;
+border: 4px solid  #C4C4C4;
+}
+.para1{
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+color: #000000;
+margin:0;
+}
+
+.para2{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.12em;
+margin: 0;
+}
+
+.pricing-button{
+background: #EF8094;
+border: 4px solid #EF8094;
+box-sizing: border-box;
+border-radius: 300px;
+width: 200px;
+height: 61px;
+margin-top: 10px;
+}
+
+.pricing-text{
+width: 163px;
+height: 29px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.12em;
+color: #FFFFFF;
+width: 163px;
+height: 29px;
+margin: auto;
+}
+
+.pricing-block2{
+display:flex;
+flex-direction: column;
+min-width: 500px;
+/* max-width:600px; */
+min-height: 250px;
+max-height:300px;
+background-image: url('./Vector\ \(1\).png');
+border: 4px solid  #C4C4C4;
+justify-content: center;
+align-items: center;
+}
+
+/* Tab/i-Pad view */
+@media (max-width: 768px){
+
+    .pricing-content{
+        display:flex;
+        flex-direction: column;
+        padding: 40px 80px;
+    
+    }
+
+    .pricing-block1{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width:600px){
+    .pricing-content{
+        display:flex;
+        flex-direction: column;
+        padding: 40px 80px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .pricing-block1{
+        margin-bottom: 20px;
+    }
+}

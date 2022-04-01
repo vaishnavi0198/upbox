@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@500&family=Ubuntu:wght@300&display=swap");
+/* TOPBAR */
+.topbar {
+  position: absolute;
+  height: 10px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  background: url(TOPBAR\ 1.png);
+}
+
+/* Navbar */
+
+.upbox-logo-img {
+  width: 56px;
+  height: 56px;
+  margin-right: 12px;
+}
+
+.upbox-logo {
+  display: flex;
+  align-items: center;
+}
+
+.upbox-content {
+  height: 33px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.28em;
+
+  color: #000000;
+}
+
+.navbar {
+  height: 90px;
+  padding: 16px 110px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navbar-upbox */
+
+/* Navbar-items */
+.nav-item {
+  width: 732px;
+  height: 37px;
+  right: 111px;
+  top: 37px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.item {
+  text-align: center;
+  width: 126px;
+  height: 18px;
+  left: 50px;
+  top: 9px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+  color: #000000;
+}
+
+button {
+  width: 124px;
+  height: 37px;
+  background: #ffffff;
+  border: 2px solid #4a4a4a;
+  box-sizing: border-box;
+  border-radius: 300px;
+}
+
+.login {
+  width: 83px;
+  height: 18px;
+  left: 30px;
+  top: 9px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.12em;
+
+  color: #000000;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+/* Tab/i-Pad view */
+
+@media (max-width: 768px) {
+  .nav-item {
+    padding: 0;
+    margin: auto;
+  }
+  .nav-item ul {
+    flex-flow: column nowrap;
+    background-color: #c9b8b8;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 3.9rem;
+    margin: auto;
+  }
+
+  .nav-item ul button {
+    display: none;
+  }
+
+  .item {
+    color: rgb(145, 70, 70);
+  }
+  .hamburger {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+  }
+
+  .navbar{
+    position:fixed;
+    z-index:4;
+  }
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    top: 25px;
+    right: 40px;
+  }
+
+  .navbar{
+    position:fixed;
+  }
+}

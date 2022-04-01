@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text&family=Montserrat:wght@500&family=Ubuntu:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.work-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstdiv {
+  display: flex;
+  gap: 50px;
+}
+.absolutediv {
+  position: relative;
+  width: 411px;
+  height: 405px;
+}
+
+.vector {
+  position: absolute;
+  width: 288.22px;
+  height: 249.04px;
+  left: 0px;
+  top: 0px;
+  margin: auto;
+  z-index: 1;
+}
+
+.girl-pic {
+  position: absolute;
+  width: 324px;
+  height: 485px;
+  left: 87px;
+  top: 12px;
+  z-index: 2;
+}
+.one {
+  position: absolute;
+  width: 97px;
+  height: 124px;
+  left: 114px;
+  top: 101px;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 220px;
+  line-height: 56px;
+  /* or 25% */
+  color: #ef8094;
+  margin: auto;
+  z-index: 3;
+}
+
+.textdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1 {
+  /* position: absolute; */
+  width: 320px;
+  /* height: 149px; */
+  /* left: 454px;
+top: 65px; */
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin: 0;
+}
+
+.text2 {
+  /* position: absolute; */
+  width: 320px;
+  /* height: 96px; */
+  /* left: 453px;
+top: 173px; */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.seconddiv {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.seconddiv-container {
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  width: 411px;
+  height: 405px;
+  left: 350px;
+  top: 50px;
+}
+
+.art1 {
+  position: absolute;
+  width: 169.21px;
+  height: 166.85px;
+  left: -50px;
+  top: -20px;
+  z-index: 1;
+}
+
+.art2 {
+  position: absolute;
+  width: 320.7px;
+  height: 259.35px;
+  z-index: 2;
+}
+
+.two {
+  position: absolute;
+  width: 97px;
+  height: 124px;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 220px;
+  line-height: 56px;
+  color: #ef8094;
+  z-index: 3;
+}
+
+.seconddiv-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.txt1 {
+  position: absolute;
+  width: 320px;
+  /* height: 149px; */
+  left: 1000px;
+  top: 1400px;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin: 0;
+}
+
+.txt2 {
+  position: absolute;
+  width: 320px;
+  /* height: 96px; */
+  left: 1000px;
+  top: 1490px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.thirddiv {
+  display: flex;
+  gap: 50px;
+}
+.thirddiv-container {
+  position: relative;
+  width: 411px;
+  height: 405px;
+  margin-bottom: 50px;
+}
+
+.art3 {
+  position: absolute;
+  width: 288.22px;
+  height: 249.04px;
+  left: 240px;
+  top: 230px;
+  margin: auto;
+  z-index: 1;
+}
+
+.photo1 {
+  position: absolute;
+  width: 50%;
+  height: 300px;
+  left: 87px;
+  top: 12px;
+  z-index: 2;
+}
+
+.photo1 img {
+  width: 270px;
+  height: 350px;
+}
+.three {
+  position: absolute;
+  width: 97px;
+  height: 124px;
+  left: 50px;
+  top: 60px;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 220px;
+  line-height: 56px;
+  /* or 25% */
+  color: #ef8094;
+  margin: auto;
+  z-index: 3;
+}
+/* for tab only */
+@media (max-width: 768px) {
+  .seconddiv {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .seconddiv-container {
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    width: 411px;
+    height: 405px;
+    left: -60px;
+    top: 50px;
+  }
+
+  .txt1 {
+    position: absolute;
+    width: 320px;
+    /* height: 149px; */
+    left: 400px;
+    top: 1420px;
+    font-family: "DM Serif Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin: 0;
+  }
+
+  .txt2 {
+    position: absolute;
+    width: 320px;
+    /* height: 96px; */
+    left: 400px;
+    top: 1500px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+}
+
+/* For tab/i-Pad/mobile */
+@media (max-width: 600px) {
+  .firstdiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .seconddiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .seconddiv-container {
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    width: 411px;
+    height: 405px;
+    left: 90px;
+    top: 50px;
+  }
+
+  .txt1 {
+    position: absolute;
+    width: 320px;
+    /* height: 149px; */
+    left: 180px;
+    top: 1900px;
+    font-family: "DM Serif Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin: 0;
+  }
+
+  .txt2 {
+    position: absolute;
+    width: 320px;
+    /* height: 96px; */
+    left: 180px;
+    top: 2000px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  .thirddiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .thirddiv-container {
+    margin: 0;
+  }
+}
